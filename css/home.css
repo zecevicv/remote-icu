@@ -1,0 +1,55 @@
+/* #Home Services
+================================================== */
+.home-services {
+  padding: 12vw 0;
+  max-width: 100%;
+}
+
+.home-services .container {
+  width: 72%;
+}
+
+.home-services .container > .text {
+  display: grid;
+  grid-template-columns: 3.5fr 6.5fr;
+  margin-bottom: 3vw;
+}
+
+.home-services .container > .text h2 {
+  line-height: 1.2;
+}
+
+.home-services .text-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5vw;
+  row-gap: 1.3vw;
+}
+
+.home-services .text-grid p:last-of-type {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 1023.98px) {
+  .home-services {
+    padding: 15vw 0 10vw 0;
+  }
+
+  .home-services .container {
+    width: 90%;
+  }
+
+  .home-services .container > .text h2 {
+    margin-bottom: 5.5vw;
+  }
+
+  .home-services .container > .text {
+    grid-template-columns: 1fr;
+    margin-bottom: 8.6vw;
+  }
+
+  .home-services .text-grid {
+    grid-template-columns: 1fr;
+    row-gap: 5.5vw;
+  }
+}
