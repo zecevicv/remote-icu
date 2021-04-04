@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 1023.98px) {
+  .banner .container {
+    top: 70%;
+  }
+
   .contact-page {
     padding: 0 0 25vw 0;
   }
