@@ -215,6 +215,11 @@ select {
   border: 1px solid transparent;
 }
 
+.btn-small {
+  height: 2.2vw;
+  padding: 0 1.7vw;
+}
+
 .btn-large {
   height: 4.11vw;
   padding: 0 2.5vw;
@@ -228,6 +233,12 @@ select {
 .btn-secondary {
   color: var(--blue);
   border: 1px solid var(--blue);
+}
+
+.btn-tertiary {
+  background-color: var(--red);
+  color: white;
+  border-radius: 3px;
 }
 
 .btn-arrow {

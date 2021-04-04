@@ -46,36 +46,40 @@ if (collapsibles) {
 
 /* #Stories Slider
     ======================================================= */
-new Swiper('.stories .swiper-container', {
-  loop: true,
-  navigation: {
-    nextEl: '.stories .swiper-button-next',
-    prevEl: '.stories .swiper-button-prev',
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1
+if (document.querySelector('.stories .swiper-container')) {
+  new Swiper('.stories .swiper-container', {
+    loop: true,
+    navigation: {
+      nextEl: '.stories .swiper-button-next',
+      prevEl: '.stories .swiper-button-prev',
     },
-    1024: {
-      slidesPerView: 2
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      1024: {
+        slidesPerView: 2
+      }
     }
-  }
-});
+  });
+}
 
 /* #Our Blog Slider
     ======================================================= */
-new Swiper('.our-blog .swiper-container', {
-  loop: true,
-  navigation: {
-    nextEl: '.our-blog .swiper-button-next',
-    prevEl: '.our-blog .swiper-button-prev',
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1.4
+if (document.querySelector('.our-blog .swiper-container')) {
+  new Swiper('.our-blog .swiper-container', {
+    loop: true,
+    navigation: {
+      nextEl: '.our-blog .swiper-button-next',
+      prevEl: '.our-blog .swiper-button-prev',
     },
-    1024: {
-      slidesPerView: 3.2
+    breakpoints: {
+      0: {
+        slidesPerView: 1.4
+      },
+      1024: {
+        slidesPerView: 3.2
+      }
     }
-  }
-});
+  });
+}

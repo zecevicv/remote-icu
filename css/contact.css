@@ -1,0 +1,143 @@
+/* #Contact Page
+================================================== */
+.contact-page {
+  padding: 0 0 12vw 0;
+}
+
+.contact-page .container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 5.6fr 4.4fr;
+}
+
+.contact-page .get-in-touch {
+  box-shadow: 0 20px 60px rgba(0,0,0, .08);
+  padding: 2vw 5.2vw;
+  border-radius: 8px;
+  transform: translateY(-3.65vw);
+  background-color: white;
+}
+
+.contact-page .get-in-touch h2 {
+  margin-bottom: 1.8vw;
+}
+
+.contact-page .get-in-touch label,
+.contact-page .get-in-touch input,
+.contact-page .get-in-touch textarea,
+.contact-page .get-in-touch select {
+  display: block;
+  width: 100%;
+}
+
+.contact-page .get-in-touch input,
+.contact-page .get-in-touch textarea,
+.contact-page .get-in-touch select {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #E5E5E5;
+  padding: .75vw 0;
+  font-family: inherit;
+  transition: all .3s ease;
+}
+
+.contact-page .get-in-touch input::placeholder,
+.contact-page .get-in-touch textarea::placeholder,
+.contact-page .get-in-touch select::placeholder {
+  color: #AFAFAF;
+}
+
+.contact-page .get-in-touch input:focus,
+.contact-page .get-in-touch textarea:focus {
+  border-bottom: 1px solid black;
+}
+
+.contact-page .get-in-touch .form-group {
+  margin-bottom: 1.8vw;
+}
+
+.contact-page .get-in-touch .form-group.double {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.3vw;
+}
+
+.contact-page .contact-details {
+  padding-top: 4.7vw;
+  padding-left: 4.7vw;
+}
+
+.contact-page .contact-details p {
+  margin-bottom: 1.3vw;
+}
+
+.contact-page .contact-details li:not(:last-child) {
+  margin-bottom: 1.2vw;
+}
+
+.contact-page .contact-details li a {
+  display: flex;
+  align-items: center;
+}
+
+.contact-page .contact-details li img {
+  flex: 0 0 1.15vw;
+  width: 1.15vw;
+  margin-right: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .contact-page {
+    padding: 0 0 25vw 0;
+  }
+  
+  .contact-page .container {
+    width: 95%;
+    margin-right: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-page .get-in-touch .form-group.double {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-page .get-in-touch .form-group.double > div:not(:last-child), 
+  .contact-page .get-in-touch .form-group {
+    margin-bottom: 6.66vw;
+  }
+
+  .contact-page .get-in-touch {
+    padding: 10vw;
+    transform: translateY(-14.5vw);
+  }
+
+  .contact-page .get-in-touch h2 {
+    margin-bottom: 8.5vw;
+  }
+
+  .contact-page .get-in-touch input,
+  .contact-page .get-in-touch textarea,
+  .contact-page .get-in-touch select {
+    padding: 4vw 0;
+  }
+
+  .contact-page .contact-details {
+    padding-top: 19vw;
+    padding-left: 10vw;
+  }
+  
+  .contact-page .contact-details p {
+    margin-bottom: 8vw;
+  }
+  
+  .contact-page .contact-details li:not(:last-child) {
+    margin-bottom: 6vw;
+  }
+  
+  .contact-page .contact-details li img {
+    flex: 0 0 5vw;
+    width: 5vw;
+    margin-right: 4vw;
+  }
+}
