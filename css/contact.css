@@ -28,6 +28,7 @@
 .contact-page .get-in-touch select {
   display: block;
   width: 100%;
+  font-size: inherit;
 }
 
 .contact-page .get-in-touch input,
