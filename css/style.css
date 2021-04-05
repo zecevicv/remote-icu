@@ -241,6 +241,12 @@ select {
   color: white;
 }
 
+.btn-quintary {
+  background-color: white;
+  color: var(--red);
+  border: 1px solid transparent;
+}
+
 .btn-arrow {
   width: 1.3vw;
   margin-left: 1.3vw;
@@ -1783,6 +1789,10 @@ select {
   object-position: left center;
 }
 
+.contact-form.contact-form-red .bg img {
+  object-fit: cover;
+}
+
 .contact-form h2 {
   margin-bottom: 3.125vw;
 }
@@ -1835,10 +1845,18 @@ select {
   column-gap: 4vw;
 }
 
+.contact-form option {
+  color: black;
+}
+
 @media (max-width: 1023.98px) {
   .contact-form {
     width: 100%;
     padding: 70vw 5% 19vw 5%;
+  }
+
+  .contact-form.contact-form-red {
+    padding: 19vw 5%;
   }
 
   .contact-form h2 {
@@ -1858,7 +1876,7 @@ select {
   }
 
   .contact-form form button {
-    margin-top: 10vw;
+    margin-top: 15vw;
   }
 
   .contact-form form input {
@@ -1877,5 +1895,9 @@ select {
   
   .contact-form .bg img {
     object-position: top left;
+  }
+
+  .contact-form.contact-form-red .bg img {
+    object-position: center;
   }
 }
