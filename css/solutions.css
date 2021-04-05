@@ -1,0 +1,147 @@
+/* #Banner
+================================================== */
+@media (max-width: 1023.98px) {
+  .banner .container {
+    top: 70%;
+  }
+}
+
+/* #Solutions Cards
+================================================== */
+.solutions-cards .container {
+  width: 72%;
+}
+
+@media (max-width: 1023.98px) {
+  .solutions-cards .container {
+    width: 90%;
+  }
+}
+
+/* #Red Line
+================================================== */
+.red-line {
+  padding: 1.56vw 0;
+  overflow: hidden;
+}
+
+.red-line,
+.red-line img {
+  width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .red-line {
+    padding: 5vw 0;
+  }
+
+  .red-line img {
+    width: 70%;
+    margin-left: auto;
+  }
+}
+
+/* #Our Solutions Top
+================================================== */
+.our-solutions-top {
+  padding: 3.5vw 0 6.77vw 0;
+}
+
+.our-solutions-top .container {
+  width: 80%;
+  position: relative;
+}
+
+.our-solutions-top .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 62%;
+  z-index: -1;
+}
+
+.our-solutions-top .text {
+  padding-top: 10vw;
+}
+
+.our-solutions-top .p-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.6vw;
+  width: 60%;
+  margin-bottom: 2.6vw;
+}
+
+.our-solutions-top p.text-red {
+  margin-top: 3.3vw;
+}
+
+.our-solutions-top .img img {
+  width: 100%;
+}
+
+.our-solutions-top h2 {
+  color: #00b0f04d;
+  font-size: 5.83vw;
+  line-height: 1;
+  margin-bottom: 1.5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .our-solutions-top {
+    padding: 8vw 0 17vw 0;
+  }
+  
+  .our-solutions-top .container {
+    width: 90%;
+    position: relative;
+  }
+
+  .our-solutions-top h2 {
+    font-size: 15vw;
+    margin-bottom: 7vw;
+  }
+
+  .our-solutions-top .img {
+    width: 70vw;
+  }
+
+  .our-solutions-top .text {
+    padding-top: 20vw;
+  }
+
+  .our-solutions-top br {
+    display: none;
+  }
+
+  .our-solutions-top .p-grid {
+    display: block;
+    width: 100%;
+    margin-bottom: 12vw;
+  }
+
+  .our-solutions-top .p-grid p:first-child {
+    margin-bottom: 4.6vw;
+  }
+
+  .our-solutions-top p.text-red {
+    margin-top: 4vw;
+  }
+}
+
+/* #Our Solutions Bottom
+================================================== */
+.our-solutions-bottom {
+  background-image: url('../img/global/grid-bg.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 83%;
+  padding-bottom: 5.2vw;
+}
+
+@media (max-width: 1023.98px) {
+  .our-solutions-bottom {
+    background-size: 100% 93%;
+    padding-bottom: 0;
+  }
+}
