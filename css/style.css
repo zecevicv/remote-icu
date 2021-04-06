@@ -1937,6 +1937,11 @@ select {
   margin: 0.35vw 0 .75vw 0;
 }
 
+.blog-card .blog-line {
+  width: 7.8vw;
+  margin-bottom: .75vw;
+}
+
 .blog-card a {
   display: inline-block;
   margin-top: 1.3vw;
@@ -1962,5 +1967,10 @@ select {
   
   .blog-card a img {
     margin-left: 1vw;
+  }
+
+  .blog-card .blog-line {
+    width: 25vw;
+    margin-bottom: 4vw;
   }
 }

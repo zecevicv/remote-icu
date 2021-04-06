@@ -30,6 +30,13 @@ if (hamburgerBtn) {
   });
 }
 
+if (window.innerWidth < 1024) {
+  document.querySelector('.header-links').style.display = 'none';
+  setTimeout(() => {
+    document.querySelector('.header-links').style.display = 'flex';
+  }, 250);
+}
+
 /* #Collapse
     ======================================================= */
 const collapsibles = document.querySelectorAll('.collapsible');
