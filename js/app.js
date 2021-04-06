@@ -83,3 +83,22 @@ if (document.querySelector('.our-blog .swiper-container')) {
     }
   });
 }
+
+/* #Related Posts Slider
+    ======================================================= */
+if (document.querySelector('.related-posts .swiper-container')) {
+  new Swiper('.related-posts .swiper-container', {
+    loop: true,
+    pagination: {
+      el: '.related-posts .swiper-pagination',
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      1024: {
+        slidesPerView: 3
+      }
+    }
+  });
+}
