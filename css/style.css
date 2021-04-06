@@ -371,9 +371,7 @@ select {
   }
 
   .header.show-menu .header-links {
-    display: flex;
     transform: translateY(100%) translateX(0);
-    transition: all .3s ease;
   }
 
   .header-logo img {
@@ -381,7 +379,7 @@ select {
   }
 
   .header-links {
-    display: none;
+    display: flex;
 
     height: 100vh;
     width: 100%;
@@ -391,6 +389,7 @@ select {
     transform: translateY(100%) translateX(-100%);
     background-color: #247A9C;
     padding-top: 6vw;
+    transition: all .3s ease;
   }
 
   .header-links ul {
@@ -1207,7 +1206,7 @@ select {
 
 @media (max-width: 1023.98px) {
   .how-it-works {
-    padding: 20vw 0 4vw 0;
+    padding: 15vw 0 4vw 0;
   }
   
   .how-it-works .container {
