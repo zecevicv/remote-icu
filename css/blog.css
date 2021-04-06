@@ -1,0 +1,186 @@
+/* #Banner
+================================================== */
+@media (max-width: 1023.98px) {
+  .banner .container {
+    top: 70%;
+  }
+}
+
+/* #Blog
+================================================== */
+.blog {
+  margin-top: 7.8vw;
+}
+
+.blog .container {
+  width: 77%;
+}
+
+.blog .blog-navigation {
+  margin-bottom: 3.65vw;
+}
+
+.blog .blog-navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog .blog-navigation li {
+  padding: 0 .25vw;
+}
+
+.blog .blog-navigation a {
+  padding: 0 .5vw .25vw .5vw;
+}
+
+.blog .blog-navigation li.active a {
+  border-bottom: 3px solid var(--blue);
+}
+
+.blog .blog-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.65vw;
+  row-gap: 4.15vw;
+}
+
+@media (max-width: 1023.98px) {
+  .blog {
+    margin-top: 22.5vw;
+  }
+  
+  .blog .container {
+    width: 90%;
+  }
+
+  .blog .blog-navigation {
+    margin-bottom: 12vw;
+  }
+  
+  .blog .blog-navigation li {
+    padding: 0 1vw;
+  }
+
+  .blog .blog-navigation a {
+    padding: 0 1vw 1vw 1vw;
+  }
+
+  .blog .blog-posts {
+    display: block;
+  }
+
+  .blog .blog-posts li:not(:last-child) {
+    margin-bottom: 5vw;
+  }
+}
+
+/* #Blog Services
+================================================== */
+.blog-services {
+  padding: 8.8vw 0 9.9vw 0;
+}
+
+.blog-services .container {
+  width: 72%;
+}
+
+.blog-services .container > p,
+.blog-services .container > h2 {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.blog-services .container > h2 {
+  color: var(--gray);
+  margin-bottom: 3.5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .blog-services {
+    padding: 20vw 0;
+  }
+  
+  .blog-services .container {
+    width: 90%;
+  }
+
+  .blog-services .container > h2 {
+    margin-bottom: 6.66vw;
+  }
+}
+
+/* #Newsletter
+================================================== */
+.newsletter {
+  text-align: center;
+  margin-top: 7vw;
+}
+
+.newsletter .container {
+  width: 30%;
+}
+
+.newsletter h2 {
+  margin-bottom: 1vw;
+}
+
+.newsletter p {
+  margin-bottom: 1.3vw;
+}
+
+.newsletter form {
+  width: 100%;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.newsletter input {
+  flex-grow: 1;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 1.5vw;
+  color: black;
+}
+
+.newsletter input::placeholder {
+  color: #C2C2C2;
+}
+
+.newsletter input,
+.newsletter button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+@media (max-width: 1023.98px) {
+  .newsletter {
+    margin-top: 20vw;
+  }
+  
+  .newsletter .container {
+    width: 90%;
+  }
+
+  .newsletter h2 {
+    margin-bottom: 5.8vw;
+  }
+  
+  .newsletter p {
+    margin-bottom: 7.2vw;
+  }
+
+  .newsletter input {
+    padding-left: 4vw;
+  }
+
+  .newsletter .btn {
+    height: 13vw;
+    padding: 0 4vw;
+  }
+
+  .newsletter .btn-arrow {
+    margin-left: 2vw;
+  }
+}
