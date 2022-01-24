@@ -109,3 +109,23 @@ if (document.querySelector('.related-posts .swiper-container')) {
     }
   });
 }
+
+/* #Mini Blog Slider
+    ======================================================= */
+if (document.querySelector('.mini-blog-slider .swiper-container')) {
+  new Swiper('.mini-blog-slider .swiper-container', {
+    loop: true,
+    centeredSlides: true,
+    pagination: {
+      el: '.mini-blog-slider .swiper-pagination',
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      1024: {
+        slidesPerView: 2.5
+      }
+    }
+  });
+}
