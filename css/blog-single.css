@@ -144,6 +144,11 @@
   object-fit: contain;
 }
 
+.blog-single-disclaimer {
+  margin-bottom: 1.5vw;
+  line-height: 1.8;
+}
+
 @media (max-width: 1023.98px) {
   .blog-single {
     margin-top: 11.3vw;
@@ -173,5 +178,10 @@
   .blog-single-icons img {
     width: 5vw;
     height: 5vw;
+  }
+
+  .blog-single-disclaimer {
+    margin-bottom: 6vw;
+    line-height: 1.5;
   }
 }

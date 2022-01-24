@@ -148,6 +148,7 @@ select {
   font-size: 3.64vw !important; /* 70px */
 }
 
+.f-d-10 {font-size: 0.52vw !important; /* 10px */ }
 .f-d-55 {font-size: 2.86vw !important; /* 55px */ }
 
 /* Font Mobile (f-m) */
@@ -176,6 +177,7 @@ select {
     font-size: 8vw !important; /* 60px */
   }
   
+  .f-m-20 {font-size: 2.66vw !important; /* 20px */ }
   .f-m-50 {font-size: 6.66vw !important; /* 50px */ }
 }
 
