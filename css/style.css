@@ -2108,3 +2108,67 @@ select {
     margin-left: .5vw;
   }
 }
+
+/* #Mini Blog Page
+================================================== */
+.mini-blog {
+  padding: 5.2vw 0 0 0;
+}
+
+.mini-blog .heading {
+  text-align: center;
+  margin-bottom: 3.125vw;
+}
+
+.mini-blog .container {
+  width: 76.77%;
+}
+
+.mini-blog ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1.5vw;
+}
+
+.mini-blog ul li {
+  padding: 1.5vw;
+  flex: 0 0 50%;
+}
+
+@media (max-width: 1023.98px) {
+  .mini-blog-page .banner .container {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mini-blog {
+    padding: 25vw 0 0 0;
+  }
+  
+  .mini-blog .heading {
+    text-align: center;
+    margin-bottom: 8vw;
+  }
+
+  .mini-blog .heading br {
+    display: none;
+  }
+  
+  .mini-blog .container {
+    width: 100%;
+    padding: 0 3.73vw;
+  }
+  
+  .mini-blog ul {
+    display: block;
+    margin: 0;
+  }
+  
+  .mini-blog ul li {
+    padding: 0;
+  }
+
+  .mini-blog ul li:not(:last-child) {
+    margin-bottom: 8vw;
+  }
+}
