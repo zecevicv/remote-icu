@@ -129,3 +129,13 @@ if (document.querySelector('.mini-blog-slider .swiper-container')) {
     }
   });
 }
+
+/* #Popup
+  ======================================================= */
+if (document.querySelector('.popup')) {
+  const popupClose = document.querySelector('.popup .popup-close');
+
+  popupClose.addEventListener('click', (e) => {
+    popupClose.closest('.popup').classList.remove('show');
+  });
+}
